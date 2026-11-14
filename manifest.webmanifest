@@ -1,0 +1,80 @@
+{
+  "id": "./",
+  "name": "Fundamentos musicales · TSPM, Universidad de Caldas",
+  "short_name": "TSPM Fundamentos",
+  "description": "Fundamentos musicales: lecciones, práctica y recursos del Técnico en Sonido y Producción Musical.",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "start_url": "./#/inicio",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "categories": [
+    "education",
+    "music"
+  ],
+  "icons": [
+    {
+      "src": "icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icono-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icono.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mis tareas",
+      "url": "./#/tareas",
+      "icons": [
+        {
+          "src": "icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Repaso de hoy",
+      "url": "./#/repaso",
+      "icons": [
+        {
+          "src": "icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Panel del tutor",
+      "url": "./#/panel",
+      "icons": [
+        {
+          "src": "icono-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
